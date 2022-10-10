@@ -14,44 +14,28 @@
 </head>
 
 <body>
-	<h1>Default</h1>
-	<div class="tabbed">
-		<ul>
-			<li>Third tab</li>
-			<li>Second tab</li>
-			<li class="active">First tab</li>
-		</ul>
-	</div>
-	<h2>With round corners</h2>
 	<section>
 		<div class="tabbed round">
 			<ul>
-				<li model-tab="tab1"  class="active">tab 1</li>
-				<li model-tab="tab2">tab 2</li>
-				<li model-tab="tab3">tab 3</li>
+				<li model-tab="tab1" class="active">Tab 1</li>
+				<li model-tab="tab2">Tab 2</li>
+				<li model-tab="tab3">Tab 3</li>
 			</ul>
 		</div>
 		<div class="tab-content">
-			<div class="tab-content-child active" id="tab1">asdasd 1</div>
-			<div class="tab-content-child" id="tab2">asdasd 2</div>
-			<div class="tab-content-child" id="tab3">asdasdasd 3</div>
+			<div class="tab-content-child active" id="tab1">
+				<div class="container">
+					<input type="radio" class="radio" id="radio-1" name="group" />
+					<label for="radio-1"></label>
+					<input type="radio" class="radio" id="radio-2" name="group" />
+					<label for="radio-2"></label>
+				</div>
+			</div>
+			<div class="tab-content-child" id="tab2">Content 2</div>
+			<div class="tab-content-child" id="tab3">Content 3</div>
 		</div>
 	</section>
 	<br />
-	<br />
-
-	<section>
-		<div class="container">
-			<input type="radio" class="radio" id="radio-1" name="group"/>
-			<label for="radio-1"></label>
-			<input type="radio" class="radio" id="radio-2" name="group"/>
-			<label for="radio-2"></label>
-			<input type="radio" class="radio" id="radio-3" name="group"/>
-			<label for="radio-3"></label>
-			<input type="radio" class="radio" id="radio-4" name="group"/>
-			<label for="radio-4"></label>
-	</div>
-	</section>
 </body>
 
 </html>
